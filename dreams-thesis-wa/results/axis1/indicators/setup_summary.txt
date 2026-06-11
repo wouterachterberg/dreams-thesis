@@ -1,0 +1,44 @@
+================================================================================
+TASK 0 — Setup & Sanity Checks Summary
+================================================================================
+
+## Data Sources
+- Validation split: MassSpecGym_splits/probing_test.parquet
+- Descriptors: Already included in probing_test.parquet
+
+## Dataset Statistics
+- Total spectra: 45,185
+- Unique molecules: 5,706
+- RDKit descriptors: 208
+- Embedding dimension: 1024
+
+## Spectra per Molecule
+- Mean: 7.92
+- Median: 3
+- Range: [1, 252]
+- Molecules with 1 spectrum: 852
+- Molecules with >1 spectra: 4,854
+
+## Data Quality Checks
+✅ ALL CHECKS PASSED
+
+## Descriptor Issues
+No descriptors with NaN values
+
+## Cached Objects
+Available in `indicator_data` dictionary:
+  - embeddings: (45185, 1024)
+  - descriptors: (45185, 208)
+  - descriptor_names: list with 208 entries
+  - spectrum_to_molecule: (45185,)
+  - molecule_to_spectra: dict with 5706 entries
+  - inchikeys: (45185,)
+  - smiles: (45185,)
+  - n_spectra: 45185
+  - n_molecules: 5706
+  - n_descriptors: 208
+  - embedding_dim: 1024
+
+================================================================================
+TASK 0 COMPLETE — Ready for indicator analyses (IND1, IND2, IND3)
+================================================================================

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "From Spectra to Structure: code and derived data"
+authors:
+  - family-names: Achterberg
+    given-names: Wouter
+    affiliation: "Vrije Universiteit Amsterdam"
+version: v1.2-clean
+doi: 10.5281/zenodo.20598853
+url: "https://github.com/wouterachterberg/dreams-thesis"
+date-released: 2026-09-06
+license: MIT

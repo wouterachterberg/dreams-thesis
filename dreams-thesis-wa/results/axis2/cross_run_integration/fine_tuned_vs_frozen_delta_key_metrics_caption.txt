@@ -1,0 +1,1 @@
+Delta = fine-tuned - frozen; positive values indicate that fine-tuning improves over frozen SSL embeddings. Y-axis limits are shared within each metric column to compare Val vs OOD gains directly.

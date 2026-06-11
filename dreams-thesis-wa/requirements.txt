@@ -1,0 +1,2 @@
+# Thesis environment is pinned at the repository root.
+-r ../requirements.txt

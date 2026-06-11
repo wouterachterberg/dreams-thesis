@@ -1,0 +1,8 @@
+# Results folder
+
+This folder will contain:
+- Probing metrics and plots
+- UMAP visualizations
+- kNN validation results
+
+Plots will be saved here automatically by the notebook.

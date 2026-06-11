@@ -1,0 +1,23 @@
+================================================================================
+COMPREHENSIVE RDKIT DESCRIPTOR PROBING - CLUSTER RUN SUMMARY
+================================================================================
+Timestamp: 2025-11-13 20:32:46
+Devices: ['cuda:0'] (1 device(s))
+Batch size: 1024
+Learning rate: 0.001
+Epochs: 30
+Dropout: 0.2
+
+Dataset size: 231,104 spectra
+Train size: 159,271
+Test size: 45,185
+
+Total descriptors: 208
+Valid descriptors: 201
+Linear results: 201
+MLP results: 201
+
+Output files:
+  - all_descriptors_probing_results_linear.pkl
+  - all_descriptors_probing_results_mlp.pkl
+================================================================================

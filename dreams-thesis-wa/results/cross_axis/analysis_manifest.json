@@ -1,0 +1,67 @@
+{
+  "created_at_utc": "2026-03-31T09:16:18.405877+00:00",
+  "thesis_root": "/Users/wouterachterberg/coding/DreaMS/dreams-thesis-wa",
+  "output_dir": "/Users/wouterachterberg/coding/DreaMS/dreams-thesis-wa/results/cross_axis_bridge",
+  "inputs": {
+    "descriptor_table_path": "/Users/wouterachterberg/coding/DreaMS/dreams-thesis-wa/data/processed/massspecgym_complete/all_rdkit_descriptors.parquet",
+    "axis1_merged_path": "/Users/wouterachterberg/coding/DreaMS/dreams-thesis-wa/results/indicators/probe_indicator_merged.csv",
+    "axis1_linear_path": "/Users/wouterachterberg/coding/DreaMS/dreams-thesis-wa/results/all_descriptors_probing_results_linear.pkl",
+    "axis1_mlp_path": "/Users/wouterachterberg/coding/DreaMS/dreams-thesis-wa/results/all_descriptors_probing_results_mlp.pkl",
+    "finetuning_hdf5_path": "/Users/wouterachterberg/coding/DreaMS/dreams-thesis-wa/data/processed/MassSpecGym_splits/finetuning.hdf5",
+    "model_runs_dir": "/Users/wouterachterberg/coding/DreaMS/dreams-thesis-wa/results/model_runs"
+  },
+  "fingerprint_bits": {
+    "ecfp4": 2048,
+    "maccs": 166,
+    "map4": 2048
+  },
+  "fine_tuned_run_tags": [
+    "morgan_2048_cos",
+    "morgan_2048_bce",
+    "maccs_166_cos",
+    "maccs_166_bce",
+    "map4_2048_cos",
+    "map4_2048_bce"
+  ],
+  "all_run_tags": [
+    "morgan_2048_cos",
+    "morgan_2048_bce",
+    "maccs_166_cos",
+    "maccs_166_bce",
+    "map4_2048_cos",
+    "map4_2048_bce",
+    "morgan_2048_cos_frozen",
+    "morgan_2048_bce_frozen",
+    "maccs_166_cos_frozen",
+    "maccs_166_bce_frozen",
+    "map4_2048_cos_frozen",
+    "map4_2048_bce_frozen"
+  ],
+  "training_alignment_summary": {
+    "axis1_descriptors_requested": 201,
+    "axis1_descriptors_used": 201,
+    "axis1_descriptors_missing_from_table": 0,
+    "training_unique_smiles": 18251,
+    "aligned_training_rows": 18242
+  },
+  "fingerprint_summary": {
+    "invalid_smiles_count": 0,
+    "ecfp4_shape": [
+      18242,
+      2048
+    ],
+    "maccs_shape": [
+      18242,
+      166
+    ],
+    "map4_shape": [
+      18242,
+      2048
+    ],
+    "ecfp4_mean_bit_density": 0.023043866403766034,
+    "maccs_mean_bit_density": 0.2752323844220209,
+    "map4_mean_bit_density": 0.2650153309926954
+  },
+  "axis1_descriptor_count": 201,
+  "scatter_rows": 16994
+}

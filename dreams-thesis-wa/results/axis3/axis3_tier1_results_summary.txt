@@ -1,0 +1,14 @@
+Axis 3 tier-1 retrieval summary
+Generated in 2.7 seconds
+Retrieval similarity cosine on continuous predictions
+Tau retained for saved binary prediction artefacts only
+Fine-tuned open acc@1 0.0693, acc@10 0.1475, median rank 1123.0, MRR 0.0963
+Fine-tuned open seen acc@1 0.1370, acc@10 0.2661, median rank 373.5, median percentile 0.9404
+Fine-tuned open novel acc@1 0.0025, acc@10 0.0306, median rank 1883.0, median percentile 0.6997
+Axis 2 OOD reference acc@1 0.0155, acc@10 0.0672, median rank 493.0
+Transfer caveat: aggregate Axis 3 acc@1 is inflated by seen compounds; the novel split is the defensible transfer comparison.
+Frozen open acc@1 0.0051, acc@10 0.0289, median rank 2100.0, MRR 0.0148
+Fine-tuned closed acc@1 0.0783, acc@10 0.1879, median rank 103.0, MRR 0.1200
+Fine-tuned open 10 ppm prefiltered acc@1 0.5568, acc@10 0.7582, median rank 1.0, MRR 0.6394
+Substructure transfer fine-tuned Spearman rho 0.2128, p 0.0107, valid bits 143
+Substructure transfer frozen Spearman rho 0.0367, p 0.663, valid bits 143

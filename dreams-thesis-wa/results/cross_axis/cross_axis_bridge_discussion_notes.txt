@@ -1,0 +1,6 @@
+Cross-axis bridge discussion notes
+
+- ECFP4: repeated FractionCSP3 matches across different bits with divergent AUROC values are consistent with hash-collision noise, where one hashed bit tracks sp3-rich chemistry well and another mixes unrelated neighborhoods.
+- MACCS: fr_ether is a clear high-R^2 / low-AUROC disagreement case, suggesting that ether-related information is linearly present in the embedding but harder to decode OOD because fragmentation around ether bonds is scaffold-dependent.
+- Hashed fingerprints: several low-R^2 / high-AUROC cases indicate that spectra can decode bits that do not align cleanly to any single RDKit descriptor, which is consistent with mixed or composite hashed substructure assignments.
+- Reliable pairs: the strongest upper-right cases are dominated by MACCS and a subset of hashed ECFP4/MAP4 bits whose best-matching descriptors correspond to broad structural or fragment-level chemistry.

@@ -1,0 +1,66 @@
+================================================================================
+TASK 1 — Nearest-Neighbor Graph Statistics
+================================================================================
+
+## Dataset
+- Total spectra: 45,185
+- Embedding dimension: 1024
+- Unique molecules: 5,706
+- Distance metric: cosine
+
+## Cached Files
+- knn_k10_inclusive.pkl (6.90 MB)
+- knn_k10_exclusive.pkl (6.90 MB)
+- knn_k50_inclusive.pkl (34.47 MB)
+- knn_k50_exclusive.pkl (34.47 MB)
+- knn_k100_inclusive.pkl (68.95 MB)
+- knn_k100_exclusive.pkl (68.95 MB)
+
+## k = 10
+
+### INCLUSIVE (all k neighbors)
+- Mean similarity: 0.747717
+- Std similarity:  0.157842
+- Min similarity:  0.128134
+- Max similarity:  1.000000
+
+### EXCLUSIVE (different-molecule only)
+- Mean similarity: 0.687372
+- Std similarity:  0.150281
+- Min similarity:  0.128134
+- Max similarity:  1.000000
+- Valid neighbors: 254996 / 451850 (56.4%)
+
+## k = 50
+
+### INCLUSIVE (all k neighbors)
+- Mean similarity: 0.637852
+- Std similarity:  0.161114
+- Min similarity:  0.112335
+- Max similarity:  1.000000
+
+### EXCLUSIVE (different-molecule only)
+- Mean similarity: 0.612767
+- Std similarity:  0.154334
+- Min similarity:  0.112335
+- Max similarity:  1.000000
+- Valid neighbors: 1786758 / 2259250 (79.1%)
+
+## k = 100
+
+### INCLUSIVE (all k neighbors)
+- Mean similarity: 0.592334
+- Std similarity:  0.161889
+- Min similarity:  0.105348
+- Max similarity:  1.000000
+
+### EXCLUSIVE (different-molecule only)
+- Mean similarity: 0.576820
+- Std similarity:  0.156589
+- Min similarity:  0.105348
+- Max similarity:  1.000000
+- Valid neighbors: 3907927 / 4518500 (86.5%)
+
+================================================================================
+TASK 1 COMPLETE
+================================================================================
