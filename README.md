@@ -2,7 +2,7 @@
 
 # DreaMS thesis reproducibility repository
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20598853.svg)](https://doi.org/10.5281/zenodo.20598853)
+[![DOI](assets/doi.svg)](https://doi.org/10.5281/zenodo.20598853)
 
 <p align="center">
   <img src="assets/from-spectra-to-structure-dark.png" alt="From Spectra to Structure" width="100%">
