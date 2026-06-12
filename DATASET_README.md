@@ -10,7 +10,7 @@ Accompanies the repository https://github.com/wouterachterberg/dreams-thesis
 | model_runs_preds_only.zip | ~4.3 GB | dreams-thesis-wa/results/model_runs/ | Predicted fingerprints for all 12 conditions (Tier 1 input) |
 | maccs_bce_finetuned.ckpt | ~1.2 GB | dreams-thesis-wa/results/model_runs/maccs_166_bce/checkpoints/epoch=11-step=1584-val_loss=0.237082.ckpt | Fine-tuned MACCS-BCE model - the reported model, used for Axis 3 and the holdout (Tier 2 input) |
 | maccs_bce_frozen.ckpt (optional) | ~15 MB | dreams-thesis-wa/results/model_runs/maccs_166_bce_frozen/checkpoints/ (keep original filename) | Frozen-backbone MACCS-BCE baseline, for the frozen-vs-fine-tuned comparison |
-| all_rdkit_descriptors.parquet | 17 MB (17,388,387 bytes) | dreams-thesis-wa/data/processed/massspecgym_complete/all_rdkit_descriptors.parquet | 201 RDKit descriptors per MassSpecGym molecule (Axis 1 / cross-axis input) |
+| all_rdkit_descriptors.parquet | ~17 MB | dreams-thesis-wa/data/processed/massspecgym_complete/all_rdkit_descriptors.parquet | 201 RDKit descriptors per MassSpecGym molecule (Axis 1 / cross-axis input) |
 
 When restoring the checkpoints, keep the original filenames shown above; the
 evaluation and deployment scripts locate them by name.
