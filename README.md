@@ -104,3 +104,14 @@ Code, notebooks, documentation, and the lightweight canonical result artifacts (
 
 Use [CITATION.cff](CITATION.cff) for this thesis repository. Also cite the
 upstream DreaMS paper and MassSpecGym when reusing the method or data.
+
+## Licence
+
+The code in this repository, including the modified upstream DreaMS package
+under `dreams/`, is released under the MIT Licence (see [LICENSE](LICENSE)).
+
+The derived data and result artefacts committed here and archived on Zenodo -
+the split manifest `dreams-thesis-wa/results/shared/splits.csv`, the RDKit
+descriptor matrix, and the tracked Axis 1-3 result tables - are released under
+CC BY 4.0, attributing MassSpecGym (CC BY 4.0) as the upstream source where
+applicable.

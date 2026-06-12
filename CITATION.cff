@@ -8,5 +8,6 @@ authors:
 version: v1.2-clean
 doi: 10.5281/zenodo.20598853
 url: "https://github.com/wouterachterberg/dreams-thesis"
+repository-code: "https://github.com/wouterachterberg/dreams-thesis"
 date-released: 2026-09-06
 license: MIT
