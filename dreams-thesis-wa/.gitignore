@@ -57,3 +57,14 @@ data/embeddings/
 results/*.png
 results/*.pdf
 results/*.npy
+
+# Public result CSVs are tracked despite the blanket *.csv ignore above.
+# Keep *.csv as default-deny (blocks accidental commit of identifying CSVs);
+# whitelist only these known-clean, MassSpecGym-derived result files.
+!results/shared/splits.csv
+!results/holdout/holdout_metrics_maccs_bce.csv
+!results/holdout/retrieval/holdout_per_spectrum_ranks.csv
+!results/axis3/specific/axis3_specific_retrieval_metrics.csv
+!results/axis3/specific/axis3_specific_per_bit_auroc.csv
+!results/axis3/specific/axis3_specific_per_spectrum_ranks.csv
+!results/cross_axis/fine_tuned_cross_axis_spearman_table.csv
