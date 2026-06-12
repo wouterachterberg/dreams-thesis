@@ -16,7 +16,7 @@ When restoring the checkpoints, keep the original filenames shown above; the
 evaluation and deployment scripts locate them by name.
 
 The four-way Murcko split manifest (splits.csv) is not in this archive - it ships
-in the repository at dreams-thesis-wa/results/shared/splits.csv and so travels
+in the repository at dreams-thesis/results/shared/splits.csv and so travels
 with the code DOI.
 
 ## Not included (fetch from source)
