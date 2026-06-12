@@ -26,7 +26,7 @@ with the code DOI.
 
 ## Reproduce the splits
 Run the Murcko-scaffold split script (seed 3407) against the pinned MassSpecGym
-revision, or join splits.csv (fold column) onto MassSpecGym by spectrum id. Both
+revision, or join splits.csv (fold column) onto MassSpecGym by spectrum id (can be found in /dreams-thesis-wa/results/shared). Both
 give identical folds.
 
 ## Load the checkpoint
