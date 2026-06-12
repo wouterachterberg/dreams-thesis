@@ -16,7 +16,8 @@ the reported results.
 The code is derived from DreaMS by pluskal-lab, published in Nature
 Biotechnology in 2025 and released under the MIT License. The upstream DreaMS
 package code remains in `dreams/`; thesis-specific work is kept under
-`dreams-thesis-wa/` plus a small number of root-level result exports.
+`dreams-thesis-wa/`, with release metadata and shared assets at the repository
+root.
 
 ## Repository structure
 
@@ -35,9 +36,7 @@ dreams-thesis-wa/
     holdout/                    tracked MACCS-BCE holdout headline metrics/ranks
     shared/                     shared dataset-level figures and split manifest
 docs/                           inherited DreaMS documentation
-docs/thesis/                    thesis methods notes and operational guides
 assets/, tutorials/, tests/     inherited DreaMS assets, tutorials, and tests
-VALIDATION_BASELINE.txt         SHA-256 guardrail for canonical result artifacts
 ```
 
 Large local caches, predictions, checkpoints, raw data, HDF5/parquet files, and
@@ -93,8 +92,9 @@ The full per-notebook dependency chain is in
 4. **Axis 3 (external deployment):** MAC DDA spectra + Axis 2 references -> `run_axis3_tier1_results.py` with the MACCS-BCE fine-tuned and frozen runs.
 5. **Holdout:** the reserved Holdout split + the MACCS-BCE checkpoint -> `evaluate_holdout_maccs_bce.py`.
 
-You do not need to re-execute the notebooks to trust the committed results; the
-tracked artifact hashes in `VALIDATION_BASELINE.txt` guarantee them.
+You do not need to re-execute the notebooks to inspect the reported outputs; the
+lightweight public result artifacts are committed, and the larger caches and
+checkpoints are restored through `DATASET_README.md`.
 
 ## Storage policy
 

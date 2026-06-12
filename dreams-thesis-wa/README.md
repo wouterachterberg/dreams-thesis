@@ -27,7 +27,8 @@ dreams-thesis-wa/
 │   ├── holdout/
 │   │   └── retrieval/
 │   └── shared/
-│       └── figures/
+│       ├── figures/
+│       └── splits.csv
 └── CODEBASE_MAP.md         # detailed provenance and cleanup audit
 ```
 
@@ -53,5 +54,3 @@ Retired paths such as `dreams-thesis-wa/figures/`,
 - Use the top-level `README.md` for reproduction order and storage policy.
 - Use `DATASET_README.md` for Zenodo archive restore instructions.
 - Use `CODEBASE_MAP.md` for artifact-to-producer evidence.
-- Treat `docs/thesis/THESIS_METHODS_*.md` as archival drafts unless refreshed
-  against the current repo state.
